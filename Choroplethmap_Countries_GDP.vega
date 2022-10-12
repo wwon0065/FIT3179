@@ -1,15 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-      "text": "World Happiness Score",
+      "text": "World GDP per capita",
       "anchor": "middle",
-      "baseline": "bottom",
-      "fontSize": 22,
+      "fontSize": 18,
       "fontWeight": 800
-
   },
-    "width": 1150,
-    "height": 500,
+    "width": 500,
+    "height": 300,
     "projection": {"type": "equalEarth"}, 
     "layer": [
     {
@@ -46,26 +44,27 @@
             "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/world-happiness-report-rankings-2022.csv"
           },
           "key": "Country",
-          "fields": ["Happiness_Score"]
+          "fields": ["GDP_per_Capita"]
         }
       }
       ],
       "mark": {"type": "geoshape"},
       "encoding": {
         "color": {
-          "field": "Happiness_Score",
+          "field": "GDP_per_Capita",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [4000, 5500, 7000],
+            "domain": [1200, 1600, 1900],
             "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-          }
+          },
+          "title": "GDP per capita"
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "Happiness_Score", "type": "quantitative"}
+          {"field": "GDP_per_Capita", "type": "quantitative", "title": "GDP per capita"}
         ]
       }
     }
   ]
-}      
+}  
