@@ -1,4 +1,4 @@
-Rank,Country,Happiness Score,Dystopia,GDP per Capita,Social Support,Healthy Life Expectancy,Freedom to Make Life Choices,Generosity,Perceptions of Corruption
+Rank,Country,Happiness_Score,Dystopia,GDP_per_Capita,Social_Support,Healthy_Life_Expectancy,Freedom_to_Make_Life_Choices,Generosity,Perceptions_of_Corruption
 1,Finland,7821,2518,1892,1258,775,736,109,534
 2,Denmark,7636,2226,1953,1243,777,719,188,532
 3,Iceland,7557,2320,1936,1320,803,718,270,191
