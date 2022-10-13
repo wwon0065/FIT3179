@@ -8,8 +8,8 @@
       "fontWeight": 800
 
   },
-    "width": 1150,
-    "height": 500,
+    "width": 900,
+    "height": 550,
     "projection": {"type": "equalEarth"}, 
     "layer": [
     {

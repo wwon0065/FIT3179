@@ -7,8 +7,8 @@
         "fontSize": 18,
         "fontWeight": 800
     }, 
-    "width": 450,
-    "height": 250,
+    "width": 350,
+    "height": 200,
     "data": {
         "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/world-happiness-report-rankings-2022.csv",
         "format": {

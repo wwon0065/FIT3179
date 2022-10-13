@@ -11,8 +11,8 @@
     "repeat": ["Dystopia", "GDP_per_Capita", "Healthy_Life_Expectancy", "Social_Support", "Freedom_to_Make_Life_Choices", "Generosity", "Perceptions_of_Corruption"],
     "columns": 4, 
     "spec": {
-        "height": 215,
-        "width": 215,
+        "height": 160,
+        "width": 160,
         "data": {
         "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/world-happiness-report-rankings-2022.csv"
         },
