@@ -10,7 +10,7 @@
     "width": 900,
     "height": 550,
     "data": {
-        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Week%2010%20Homework/world_happiness_report_2022.csv",
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Week10_Homework/world_happiness_report_2022.csv",
         "format": {
             "type":"csv",  
             "parse": {
