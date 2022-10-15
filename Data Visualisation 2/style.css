@@ -1,0 +1,41 @@
+#choropleth_map_happiness{
+	top: 80px;
+	bottom: 100px; 
+	left: 300px;
+	right: 500px;
+}
+
+#choropleth_map_GDP{
+	top: 80px;
+	bottom: 100px; 
+	left: 300px;
+	right: 500px;
+}
+
+#choropleth_map_life_expectancy{
+	top: 80px;
+	bottom: 100px; 
+	left: 300px;
+	right: 500px;
+}
+
+#bar_chart_dystopia{
+	top: 80px;
+	bottom: 100px; 
+	left: 300px;
+	right: 500px;
+}
+
+#bar_chart_social_support{
+	top: 80px;
+	bottom: 100px; 
+	left: 320px;
+	right: 500px;
+}
+
+#scatter_plot{
+	top: 100px;
+	bottom: 100px; 
+	left: 300px;
+	right: 500px;
+}
