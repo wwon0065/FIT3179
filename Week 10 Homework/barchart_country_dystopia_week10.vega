@@ -1,0 +1,46 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "World Dystopia Score",
+        "anchor": "middle",
+        "baseline": "bottom",
+        "fontSize": 18,
+        "fontWeight": 800
+    }, 
+    "width": 350,
+    "height": 200,
+    "data": {
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Week%2010%20Homework/world_happiness_report_2022.csv",
+        "format": {
+            "type":"csv",  
+            "parse": {
+              "Dypstopia": "number"
+            }
+        }
+    },
+    "params": [
+    {
+        "name": "Dystopia_Above",
+        "value": 0,
+        "bind": {
+          "input": "range",
+          "min": 0,
+          "max": 3000,
+          "step": 100,
+          "name": "Minimum Dystopia Score: "
+        }
+    }],
+    "transform": [
+    {
+        "filter": "datum.Dystopia > Dystopia_Above"
+    }],
+    "mark": "bar",
+    "encoding": {
+        "y": { "field": "Dystopia", "type": "quantitative" },
+        "x": { "field": "Country", "type": "nominal" },
+        "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "Dystopia", "type": "quantitative"}
+        ]
+    }    
+}
