@@ -1,0 +1,70 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "World Healthy Life Expectancy",
+      "anchor": "middle",
+      "fontSize": 18,
+      "fontWeight": 800
+  },
+    "width": 400,
+    "height": 250,
+    "projection": {"type": "equalEarth"}, 
+    "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "skyblue"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/ne_50m_admin_0_countries.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/ne_50m_graticules_30.json",
+        "format": {"type": "topojson", "feature": "ne_50m_graticules_30"}
+      },
+      "mark": {"type": "geoshape", "fillOpacity": 0, "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/ne_50m_admin_0_countries.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_0_countries"}
+      },
+      "transform": [
+      {
+        "lookup": "properties.NAME",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/world-happiness-report-rankings-2022.csv"
+          },
+          "key": "Country",
+          "fields": ["Healthy_Life_Expectancy"]
+        }
+      }
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field": "Healthy_Life_Expectancy",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [400, 600, 750],
+            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+          },
+          "title": "Life Expectancy"
+        },
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {"field": "Healthy_Life_Expectancy", "type": "quantitative", "title": "Healthy Life Expectancy"}
+        ]
+      }
+    }
+  ]
+}
