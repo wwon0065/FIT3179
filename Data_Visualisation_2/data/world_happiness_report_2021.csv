@@ -1,0 +1,150 @@
+Rank,Country,Continent,Ladder Score,Happiness_Score
+1,Finland,Europe,7.842,7842
+2,Denmark,Europe,7.62,7620
+3,Switzerland,Europe,7.571,7571
+4,Iceland,Europe,7.554,7554
+5,Netherlands,Europe,7.464,7464
+6,Norway,Europe,7.392,7392
+7,Sweden,Europe,7.363,7363
+8,Luxembourg,Europe,7.324,7324
+9,New Zealand,Australasia,7.277,7277
+10,Austria,Europe,7.268,7268
+11,Australia,Australasia,7.183,7183
+12,Israel,Africa,7.157,7157
+13,Germany,Europe,7.155,7155
+14,Canada,North America,7.103,7103
+15,Ireland,Europe,7.085,7085
+16,Costa Rica,South America,7.069,7069
+17,United Kingdom,Europe,7.064,7064
+18,Czechia,Europe,6.965,6965
+19,United States of America,North America,6.951,6951
+20,Belgium,Europe,6.834,6834
+21,France,Europe,6.69,6690
+22,Bahrain,Africa,6.647,6647
+23,Malta,Europe,6.602,6602
+24,Taiwan,Asia,6.584,6584
+25,United Arab Emirates,Africa,6.561,6561
+26,Saudi Arabia,Africa,6.494,6494
+27,Spain,Europe,6.491,6491
+28,Italy,Europe,6.483,6483
+29,Slovenia,Europe,6.461,6461
+30,Guatemala,South America,6.435,6435
+31,Uruguay,South America,6.431,6431
+32,Singapore,Asia,6.377,6377
+33,Kosovo,Europe,6.372,6372
+34,Slovakia,Europe,6.331,6331
+35,Brazil,South America,6.33,6330
+36,Mexico,South America,6.317,6317
+37,Jamaica,South America,6.309,6309
+38,Lithuania,Europe,6.255,6255
+39,Cyprus,Europe,6.223,6223
+40,Estonia,Europe,6.189,6189
+41,Panama,South America,6.18,6180
+42,Uzbekistan,Asia,6.179,6179
+43,Chile,South America,6.172,6172
+44,Poland,Europe,6.166,6166
+45,Kazakhstan,Asia,6.152,6152
+46,Romania,Europe,6.14,6140
+47,Kuwait,Africa,6.106,6106
+48,Serbia,Europe,6.078,6078
+49,El Salvador,South America,6.061,6061
+50,Mauritius,Africa,6.049,6049
+51,Latvia,Europe,6.032,6032
+52,Colombia,South America,6.012,6012
+53,Hungary,Europe,5.992,5992
+54,Thailand,Asia,5.985,5985
+55,Nicaragua,South America,5.972,5972
+56,Japan,Asia,5.94,5940
+57,Argentina,South America,5.929,5929
+58,Portugal,Europe,5.929,5929
+59,Honduras,South America,5.919,5919
+60,Croatia,Europe,5.882,5882
+61,Philippines,Asia,5.88,5880
+62,South Korea,Asia,5.845,5845
+63,Peru,South America,5.84,5840
+64,Bosnia and Herzegovina,Europe,5.813,5813
+65,Moldova,Europe,5.766,5766
+66,Ecuador,South America,5.764,5764
+67,Kyrgyzstan,Asia,5.744,5744
+68,Greece,Europe,5.723,5723
+69,Bolivia,South America,5.716,5716
+70,Mongolia,Asia,5.677,5677
+71,Paraguay,South America,5.653,5653
+72,Montenegro,Europe,5.581,5581
+73,Dominican Rep.,South America,5.545,5545
+74,N. Cyprus,Europe,5.536,5536
+75,Belarus,Europe,5.534,5534
+76,Russia,Europe,5.477,5477
+77,Hong Kong,Asia,5.477,5477
+78,Tajikistan,Asia,5.466,5466
+79,Vietnam,Asia,5.411,5411
+80,Libya,Africa,5.41,5410
+81,Malaysia,Asia,5.384,5384
+82,Indonesia,Asia,5.345,5345
+83,Dem. Rep. Congo,Africa,5.342,5342
+84,China,Asia,5.339,5339
+85,Côte d'Ivoire,Africa,5.306,5306
+86,Armenia,Asia,5.283,5283
+87,Nepal,Asia,5.269,5269
+88,Bulgaria,Europe,5.266,5266
+89,Maldives,Asia,5.198,5198
+90,Azerbaijan,Europe,5.171,5171
+91,Cameroon,Africa,5.142,5142
+92,Senegal,Africa,5.132,5132
+93,Albania,Europe,5.117,5117
+94,North Macedonia,Europe,5.101,5101
+95,Ghana,Africa,5.088,5088
+96,Niger,Africa,5.074,5074
+97,Turkmenistan,Asia,5.066,5066
+98,Gambia,Africa,5.051,5051
+99,Benin,Africa,5.045,5045
+100,Laos,Asia,5.03,5030
+101,Bangladesh,Asia,5.025,5025
+102,Guinea,Africa,4.984,4984
+103,South Africa,Africa,4.956,4956
+104,Turkey,Africa,4.948,4948
+105,Pakistan,Asia,4.934,4934
+106,Morocco,Africa,4.918,4918
+107,Venezuela,South America,4.892,4892
+108,S. Geo. and the Is.,Europe,4.891,4891
+109,Algeria,Africa,4.887,4887
+110,Ukraine,Europe,4.875,4875
+111,Iraq,Africa,4.854,4854
+112,Gabon,Africa,4.852,4852
+113,Burkina Faso,Africa,4.834,4834
+114,Cambodia,Asia,4.83,4830
+115,Mozambique,Africa,4.794,4794
+116,Nigeria,Africa,4.759,4759
+117,Mali,Africa,4.723,4723
+118,Iran,Africa,4.721,4721
+119,Uganda,Africa,4.636,4636
+120,Liberia,Africa,4.625,4625
+121,Kenya,Africa,4.607,4607
+122,Tunisia,Africa,4.596,4596
+123,Lebanon,Africa,4.584,4584
+124,Namibia,Africa,4.574,4574
+125,Palestine,Africa,4.517,4517
+126,Myanmar,Asia,4.426,4426
+127,Jordan,Africa,4.395,4395
+128,Chad,Africa,4.355,4355
+129,Sri Lanka,Asia,4.325,4325
+130,eSwatini,Africa,4.308,4308
+131,Comoros,Africa,4.289,4289
+132,Egypt,Africa,4.283,4283
+133,Ethiopia,Africa,4.275,4275
+134,Mauritania,Africa,4.227,4227
+135,Madagascar,Africa,4.208,4208
+136,Togo,Africa,4.107,4107
+137,Zambia,Africa,4.073,4073
+138,Sierra Leone,Africa,3.849,3849
+139,India,Asia,3.819,3819
+140,Burundi,Africa,3.775,3775
+141,Yemen,Africa,3.658,3658
+142,Tanzania,Africa,3.623,3623
+143,Haiti,South America,3.615,3615
+144,Malawi,Africa,3.6,3600
+145,Lesotho,Africa,3.512,3512
+146,Botswana,Africa,3.467,3467
+147,Rwanda,Africa,3.415,3415
+148,Zimbabwe,Africa,3.145,3145
+149,Afghanistan,Asia,2.523,2523
