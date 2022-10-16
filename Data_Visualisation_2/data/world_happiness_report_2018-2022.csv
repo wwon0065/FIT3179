@@ -18,135 +18,135 @@ Rank,Country,Continent,Score,Happiness Score,Year
 17,Luxembourg,Europe,6.91,6910,2018
 18,United States of America,North America,6.886,6886,2018
 19,Israel,Africa,6.814,6814,2018
-21,United Arab Emirates,Africa,6.711,6711,2018
-22,Czechia,Europe,6.627,6627,2018
-23,Malta,Europe,6.489,6489,2018
-24,France,Europe,6.488,6488,2018
-25,Mexico,South America,6.476,6476,2018
-26,Chile,South America,6.441,6441,2018
-27,Taiwan,Asia,6.43,6430,2018
-28,Panama,South America,6.419,6419,2018
-29,Brazil,South America,6.388,6388,2018
-30,Argentina,South America,6.382,6382,2018
-31,Guatemala,South America,6.379,6379,2018
-33,Uruguay,South America,6.371,6371,2018
-34,Saudi Arabia,Africa,6.343,6343,2018
-35,Singapore,Asia,6.322,6322,2018
-36,Malaysia,Asia,6.31,6310,2018
-37,Spain,Europe,6.26,6260,2018
-39,Colombia,South America,6.173,6173,2018
-40,Slovakia,Europe,6.167,6167,2018
-41,El Salvador,South America,6.141,6141,2018
-42,Nicaragua,South America,6.123,6123,2018
-43,Poland,Europe,6.105,6105,2018
-44,Bahrain,Africa,6.096,6096,2018
-45,Uzbekistan,Aia,6.083,6083,2018
-46,Kuwait,Africa,6.072,6072,2018
-47,Thailand,Asia,6,6000,2018
-48,Italy,Europe               ,5.973,5973,2018
-50,Ecuador,South America,5.952,5952,2018
-51,Lithuania,Europe,5.948,5948,2018
-52,Slovenia,Europe,5.945,5945,2018
-53,Romania,Europe,5.933,5933,2018
-54,Latvia,Europe,5.915,5915,2018
-55,Japan,Asia,5.891,5891,2018
-56,Mauritius,Africa,5.89,5890,2018
-57,Jamaica,South America,5.875,5875,2018
-58,South Korea,Asia,5.835,5835,2018
-59,N. Cyprus,Europe,5.81,5810,2018
-60,Russia,Europe,5.79,5790,2018
-61,Kazakhstan,Asia,5.762,5762,2018
-62,Cyprus,Europe,5.752,5752,2018
-63,Bolivia,South America,5.739,5739,2018
-64,Estonia,Europe,5.681,5681,2018
-65,Paraguay,South America,5.663,5663,2018
-66,Peru,South America,5.662,5662,2018
-67,Kosovo,Europe,5.64,5640,2018
-68,Moldova,Europe,5.636,5636,2018
-69,Turkmenistan,Asia,5.62,5620,2018
-70,Hungary,Europe,5.566,5566,2018
-71,Libya,Africa,5.524,5524,2018
-72,Philippines,Asia,5.504,5504,2018
-73,Honduras,South America,5.483,5483,2018
-74,Belarus,Europe,5.483,5483,2018
-75,Turkey,Africa,5.472,5472,2018
-76,Pakistan,Asia,5.43,5430,2018
-77,Hong Kong,Asia,5.41,5410,2018
-78,Portugal,Europe,5.398,5398,2018
-79,Serbia,Europe,5.358,5358,2018
-80,Greece,Europe,5.358,5358,2018
-81,Lebanon,Africa,5.347,5347,2018
-82,Montenegro,Europe,5.321,5321,2018
-83,Croatia,Europe,5.302,5302,2018
-84,Dominican Rep.,South America,5.295,5295,2018
-85,Algeria,Africa,5.254,5254,2018
-86,Morocco,Africa,5.246,5246,2018
-87,China,Asia,5.201,5201,2018
-88,Azerbaijan,Europe,5.199,5199,2018
-89,Tajikistan,Asia,5.185,5185,2018
-90,Macedonia,Europe,5.161,5161,2018
-91,Jordan,Africa,5.155,5155,2018
-92,Nigeria,Africa,5.131,5131,2018
-93,Kyrgyzstan,Asia,5.129,5129,2018
-94,Bosnia and Herzegovina,Europe,5.125,5125,2018
-95,Mongolia,Asia,5.103,5103,2018
-96,Vietnam,Asia,5.093,5093,2018
-99,Indonesia,Asia,4.975,4975,2018
-100,Cameroon,Africa,4.933,4933,2018
-101,Bulgaria,Europe,4.88,4880,2018
-102,Nepal,Asia,4.806,4806,2018
-103,Venezuela,South America,4.758,4758,2018
-104,Gabon,Africa,4.743,4743,2018
-105,Palestine,Africa,4.724,4724,2018
-106,South Africa,Africa,4.707,4707,2018
-107,Iran,Africa,4.671,4671,2018
-108,Côte d'Ivoire,Africa,4.657,4657,2018
-109,Ghana,Africa,4.631,4631,2018
-110,Senegal,Africa,4.623,4623,2018
-111,Laos,Asia,4.592,4592,2018
-112,Tunisia,Africa,4.586,4586,2018
-113,Albania,Europe,4.571,4571,2018
-114,Sierra Leone,Africa,4.559,4559,2018
-115,Congo,Africa,4.5,4500,2018
-116,Bangladesh,Asia,4.471,4471,2018
-117,Sri Lanka,Asia,4.456,4456,2018
-118,Iraq,Africa,4.447,4447,2018
-119,Mali,Africa,4.441,4441,2018
-120,Namibia,Africa,4.433,4433,2018
-121,Cambodia,Asia,4.424,4424,2018
-122,Burkina Faso,Africa,4.419,4419,2018
-123,Egypt,Africa,4.417,4417,2018
-124,Mozambique,Africa,4.41,4410,2018
-125,Kenya,Africa,4.377,4377,2018
-126,Zambia,Africa,4.356,4356,2018
-127,Mauritania,Africa,4.35,4350,2018
-128,Ethiopia,Africa,4.34,4340,2018
-129,Georgia,Europe,4.321,4321,2018
-130,Armenia,Asia,4.308,4308,2018
-131,Myanmar,Asia,4.301,4301,2018
-133,Chad,Africa,4.19,4190,2018
-134,India,Asia,4.166,4166,2018
-135,Niger,Africa,4.161,4161,2018
-136,Uganda,Africa,4.141,4141,2018
-137,Benin,Africa,4.139,4139,2018
-138,Sudan,Africa,4.103,4103,2018
-139,Ukraine,Europe,3.999,3999,2018
-140,Togo,Africa,3.964,3964,2018
-141,Guinea,Africa,3.808,3808,2018
-142,Lesotho,Africa,3.795,3795,2018
-143,Madagascar,Africa,3.774,3774,2018
-144,Zimbabwe,Africa,3.692,3692,2018
-145,Afghanistan,Asia,3.632,3632,2018
-146,Botswana,Africa,3.59,3590,2018
-147,Malawi,Africa,3.587,3587,2018
-148,Haiti,South America,3.582,3582,2018
-149,Liberia,Africa,3.495,3495,2018
-151,Rwanda,Africa,3.408,3408,2018
-152,Yemen,Africa,3.355,3355,2018
-153,Tanzania,Africa,3.303,3303,2018
-154,S. Sudan,Africa,3.254,3254,2018
-155,Central African Rep.,Africa,3.083,3083,2018
-156,Burundi,Africa,2.905,2905,2018
+20,United Arab Emirates,Africa,6.711,6711,2018
+21,Czechia,Europe,6.627,6627,2018
+22,Malta,Europe,6.489,6489,2018
+23,France,Europe,6.488,6488,2018
+24,Mexico,South America,6.476,6476,2018
+25,Chile,South America,6.441,6441,2018
+26,Taiwan,Asia,6.43,6430,2018
+27,Panama,South America,6.419,6419,2018
+28,Brazil,South America,6.388,6388,2018
+29,Argentina,South America,6.382,6382,2018
+30,Guatemala,South America,6.379,6379,2018
+31,Uruguay,South America,6.371,6371,2018
+32,Saudi Arabia,Africa,6.343,6343,2018
+33,Singapore,Asia,6.322,6322,2018
+34,Malaysia,Asia,6.31,6310,2018
+35,Spain,Europe,6.26,6260,2018
+36,Colombia,South America,6.173,6173,2018
+37,Slovakia,Europe,6.167,6167,2018
+38,El Salvador,South America,6.141,6141,2018
+39,Nicaragua,South America,6.123,6123,2018
+40,Poland,Europe,6.105,6105,2018
+41,Bahrain,Africa,6.096,6096,2018
+42,Uzbekistan,Aia,6.083,6083,2018
+43,Kuwait,Africa,6.072,6072,2018
+44,Thailand,Asia,6,6000,2018
+45,Italy,Europe               ,5.973,5973,2018
+46,Ecuador,South America,5.952,5952,2018
+47,Lithuania,Europe,5.948,5948,2018
+48,Slovenia,Europe,5.945,5945,2018
+49,Romania,Europe,5.933,5933,2018
+50,Latvia,Europe,5.915,5915,2018
+51,Japan,Asia,5.891,5891,2018
+52,Mauritius,Africa,5.89,5890,2018
+53,Jamaica,South America,5.875,5875,2018
+54,South Korea,Asia,5.835,5835,2018
+55,N. Cyprus,Europe,5.81,5810,2018
+56,Russia,Europe,5.79,5790,2018
+57,Kazakhstan,Asia,5.762,5762,2018
+58,Cyprus,Europe,5.752,5752,2018
+59,Bolivia,South America,5.739,5739,2018
+60,Estonia,Europe,5.681,5681,2018
+61,Paraguay,South America,5.663,5663,2018
+62,Peru,South America,5.662,5662,2018
+63,Kosovo,Europe,5.64,5640,2018
+64,Moldova,Europe,5.636,5636,2018
+65,Turkmenistan,Asia,5.62,5620,2018
+66,Hungary,Europe,5.566,5566,2018
+67,Libya,Africa,5.524,5524,2018
+68,Philippines,Asia,5.504,5504,2018
+69,Honduras,South America,5.483,5483,2018
+70,Belarus,Europe,5.483,5483,2018
+71,Turkey,Africa,5.472,5472,2018
+72,Pakistan,Asia,5.43,5430,2018
+73,Hong Kong,Asia,5.41,5410,2018
+74,Portugal,Europe,5.398,5398,2018
+75,Serbia,Europe,5.358,5358,2018
+76,Greece,Europe,5.358,5358,2018
+77,Lebanon,Africa,5.347,5347,2018
+78,Montenegro,Europe,5.321,5321,2018
+79,Croatia,Europe,5.302,5302,2018
+80,Dominican Rep.,South America,5.295,5295,2018
+81,Algeria,Africa,5.254,5254,2018
+82,Morocco,Africa,5.246,5246,2018
+83,China,Asia,5.201,5201,2018
+84,Azerbaijan,Europe,5.199,5199,2018
+85,Tajikistan,Asia,5.185,5185,2018
+86,Macedonia,Europe,5.161,5161,2018
+87,Jordan,Africa,5.155,5155,2018
+88,Nigeria,Africa,5.131,5131,2018
+89,Kyrgyzstan,Asia,5.129,5129,2018
+90,Bosnia and Herzegovina,Europe,5.125,5125,2018
+91,Mongolia,Asia,5.103,5103,2018
+92,Vietnam,Asia,5.093,5093,2018
+93,Indonesia,Asia,4.975,4975,2018
+94,Cameroon,Africa,4.933,4933,2018
+95,Bulgaria,Europe,4.88,4880,2018
+96,Nepal,Asia,4.806,4806,2018
+97,Venezuela,South America,4.758,4758,2018
+98,Gabon,Africa,4.743,4743,2018
+99,Palestine,Africa,4.724,4724,2018
+100,South Africa,Africa,4.707,4707,2018
+101,Iran,Africa,4.671,4671,2018
+102,Côte d'Ivoire,Africa,4.657,4657,2018
+103,Ghana,Africa,4.631,4631,2018
+104,Senegal,Africa,4.623,4623,2018
+105,Laos,Asia,4.592,4592,2018
+106,Tunisia,Africa,4.586,4586,2018
+107,Albania,Europe,4.571,4571,2018
+108,Sierra Leone,Africa,4.559,4559,2018
+109,Congo,Africa,4.5,4500,2018
+110,Bangladesh,Asia,4.471,4471,2018
+111,Sri Lanka,Asia,4.456,4456,2018
+112,Iraq,Africa,4.447,4447,2018
+113,Mali,Africa,4.441,4441,2018
+114,Namibia,Africa,4.433,4433,2018
+115,Cambodia,Asia,4.424,4424,2018
+116,Burkina Faso,Africa,4.419,4419,2018
+117,Egypt,Africa,4.417,4417,2018
+118,Mozambique,Africa,4.41,4410,2018
+119,Kenya,Africa,4.377,4377,2018
+120,Zambia,Africa,4.356,4356,2018
+121,Mauritania,Africa,4.35,4350,2018
+122,Ethiopia,Africa,4.34,4340,2018
+123,Georgia,Europe,4.321,4321,2018
+124,Armenia,Asia,4.308,4308,2018
+125,Myanmar,Asia,4.301,4301,2018
+126,Chad,Africa,4.19,4190,2018
+127,India,Asia,4.166,4166,2018
+128,Niger,Africa,4.161,4161,2018
+129,Uganda,Africa,4.141,4141,2018
+130,Benin,Africa,4.139,4139,2018
+131,Sudan,Africa,4.103,4103,2018
+132,Ukraine,Europe,3.999,3999,2018
+133,Togo,Africa,3.964,3964,2018
+134,Guinea,Africa,3.808,3808,2018
+135,Lesotho,Africa,3.795,3795,2018
+136,Madagascar,Africa,3.774,3774,2018
+137,Zimbabwe,Africa,3.692,3692,2018
+138,Afghanistan,Asia,3.632,3632,2018
+139,Botswana,Africa,3.59,3590,2018
+140,Malawi,Africa,3.587,3587,2018
+141,Haiti,South America,3.582,3582,2018
+142,Liberia,Africa,3.495,3495,2018
+143,Rwanda,Africa,3.408,3408,2018
+144,Yemen,Africa,3.355,3355,2018
+145,Tanzania,Africa,3.303,3303,2018
+146,S. Sudan,Africa,3.254,3254,2018
+147,Central African Rep.,Africa,3.083,3083,2018
+148,Burundi,Africa,2.905,2905,2018
 1,Finland,Europe,7.769,7769,2019
 2,Denmark,Europe,7.6,7600,2019
 3,Norway,Europe,7.554,7554,2019
@@ -175,127 +175,127 @@ Rank,Country,Continent,Score,Happiness Score,Year
 26,Chile,South America,6.444,6444,2019
 27,Guatemala,South America,6.436,6436,2019
 28,Saudi Arabia,Africa,6.375,6375,2019
-30,Spain,Europe,6.354,6354,2019
-31,Panama,South America,6.321,6321,2019
-32,Brazil,South America,6.3,6300,2019
-33,Uruguay,South America,6.293,6293,2019
-34,Singapore,Asia,6.262,6262,2019
-35,El Salvador,South America,6.253,6253,2019
-36,Italy,Europe,6.223,6223,2019
-37,Bahrain,Africa,6.199,6199,2019
-38,Slovakia,Europe,6.198,6198,2019
-40,Poland,Europe,6.182,6182,2019
-41,Uzbekistan,Asia,6.174,6174,2019
-42,Lithuania,Europe,6.149,6149,2019
-43,Colombia,South America,6.125,6125,2019
-44,Slovenia,Europe,6.118,6118,2019
-45,Nicaragua,South America,6.105,6105,2019
-46,Kosovo,Europe,6.1,6100,2019
-47,Argentina,South America,6.086,6086,2019
-48,Romania,Europe,6.07,6070,2019
-49,Cyprus,Europe,6.046,6046,2019
-50,Ecuador,South America,6.028,6028,2019
-51,Kuwait,Africa,6.021,6021,2019
-52,Thailand,Asia,6.008,6008,2019
-53,Latvia,Europe,5.94,5940,2019
-54,South Korea,Asia,5.895,5895,2019
-55,Estonia,Europe,5.893,5893,2019
-56,Jamaica,South America,5.89,5890,2019
-57,Mauritius,Africa,5.888,5888,2019
-58,Japan,Asia,5.886,5886,2019
-59,Honduras,South America,5.86,5860,2019
-60,Kazakhstan,Asia,5.809,5809,2019
-61,Bolivia,South America,5.779,5779,2019
-62,Hungary,Europe,5.758,5758,2019
-63,Paraguay,South America,5.743,5743,2019
-64,N. Cyprus,Europe,5.718,5718,2019
-65,Peru,South America,5.697,5697,2019
-66,Portugal,Europe,5.693,5693,2019
-67,Pakistan,Asia,5.653,5653,2019
-68,Russia,Europe,5.648,5648,2019
-69,Philippines,Asia,5.631,5631,2019
-70,Serbia,Europe,5.603,5603,2019
-71,Moldova,Europe,5.529,5529,2019
-72,Libya,Africa,5.525,5525,2019
-73,Montenegro,Europe,5.523,5523,2019
-74,Tajikistan,Asia,5.467,5467,2019
-75,Croatia,Europe,5.432,5432,2019
-76,Hong Kong,Asia,5.43,5430,2019
-77,Dominican Rep.,South America,5.425,5425,2019
-78,Bosnia and Herzegovina,Europe,5.386,5386,2019
-79,Turkey,Africa,5.373,5373,2019
-80,Malaysia,Asia,5.339,5339,2019
-81,Belarus,Europe,5.323,5323,2019
-82,Greece,Europe,5.287,5287,2019
-83,Mongolia,Asia,5.285,5285,2019
-84,North Macedonia,Europe,5.274,5274,2019
-85,Nigeria,Africa,5.265,5265,2019
-86,Kyrgyzstan,Asia,5.261,5261,2019
-87,Turkmenistan,Asia,5.247,5247,2019
-88,Algeria,Africa,5.211,5211,2019
-89,Morocco,Africa,5.208,5208,2019
-90,Azerbaijan,Europe,5.208,5208,2019
-91,Lebanon,Africa,5.197,5197,2019
-92,Indonesia,Asia,5.192,5192,2019
-93,China,Asia,5.191,5191,2019
-94,Vietnam,Asia,5.175,5175,2019
-96,Cameroon,Africa,5.044,5044,2019
-97,Bulgaria,Europe,5.011,5011,2019
-98,Ghana,Africa,4.996,4996,2019
-99,Côte d'Ivoire,Africa,4.944,4944,2019
-100,Nepal,Asia,4.913,4913,2019
-101,Jordan,Africa,4.906,4906,2019
-102,Benin,Africa,4.883,4883,2019
-103,Congo,Africa,4.812,4812,2019
-104,Gabon,Africa,4.799,4799,2019
-105,Laos,Asia,4.796,4796,2019
-106,South Africa,Africa,4.722,4722,2019
-107,Albania,Europe,4.719,4719,2019
-108,Venezuela,South America,4.707,4707,2019
-109,Cambodia,Asia,4.7,4700,2019
-110,Palestine,Africa,4.696,4696,2019
-111,Senegal,Africa,4.681,4681,2019
-113,Namibia,Africa,4.639,4639,2019
-114,Niger,Africa,4.628,4628,2019
-115,Burkina Faso,Africa,4.587,4587,2019
-116,Armenia,Asia,4.559,4559,2019
-117,Iran,Africa,4.548,4548,2019
-118,Guinea,Africa,4.534,4534,2019
-119,S. Geo. and the Is.,Europe,4.519,4519,2019
-120,Gambia,Africa,4.516,4516,2019
-121,Kenya,Africa,4.509,4509,2019
-122,Mauritania,Africa,4.49,4490,2019
-123,Mozambique,Africa,4.466,4466,2019
-124,Tunisia,Africa,4.461,4461,2019
-125,Bangladesh,Asia,4.456,4456,2019
-126,Iraq,Africa,4.437,4437,2019
-127,Congo,Africa,4.418,4418,2019
-128,Mali,Africa,4.39,4390,2019
-129,Sierra Leone,Africa,4.374,4374,2019
-130,Sri Lanka,Asia,4.366,4366,2019
-131,Myanmar,Asia,4.36,4360,2019
-132,Chad,Africa,4.35,4350,2019
-133,Ukraine,Europe,4.332,4332,2019
-134,Ethiopia,Africa,4.286,4286,2019
-135,eSwatini,Africa,4.212,4212,2019
-136,Uganda,Africa,4.189,4189,2019
-137,Egypt,Africa,4.166,4166,2019
-138,Zambia,Africa,4.107,4107,2019
-139,Togo,Africa,4.085,4085,2019
-140,India,Asia,4.015,4015,2019
-141,Liberia,Africa,3.975,3975,2019
-142,Comoros,Africa,3.973,3973,2019
-143,Madagascar,Africa,3.933,3933,2019
-144,Lesotho,Africa,3.802,3802,2019
-145,Burundi,Africa,3.775,3775,2019
-146,Zimbabwe,Africa,3.663,3663,2019
-147,Haiti,South America,3.597,3597,2019
-148,Botswana,Africa,3.488,3488,2019
-150,Malawi,Africa,3.41,3410,2019
-151,Yemen,Africa,3.38,3380,2019
-152,Rwanda,Africa,3.334,3334,2019
-153,Tanzania,Africa,3.231,3231,2019
-154,Afghanistan,Asia,3.203,3203,2019
+29,Spain,Europe,6.354,6354,2019
+30,Panama,South America,6.321,6321,2019
+31,Brazil,South America,6.3,6300,2019
+32,Uruguay,South America,6.293,6293,2019
+33,Singapore,Asia,6.262,6262,2019
+34,El Salvador,South America,6.253,6253,2019
+35,Italy,Europe,6.223,6223,2019
+36,Bahrain,Africa,6.199,6199,2019
+37,Slovakia,Europe,6.198,6198,2019
+38,Poland,Europe,6.182,6182,2019
+39,Uzbekistan,Asia,6.174,6174,2019
+40,Lithuania,Europe,6.149,6149,2019
+41,Colombia,South America,6.125,6125,2019
+42,Slovenia,Europe,6.118,6118,2019
+43,Nicaragua,South America,6.105,6105,2019
+44,Kosovo,Europe,6.1,6100,2019
+45,Argentina,South America,6.086,6086,2019
+46,Romania,Europe,6.07,6070,2019
+47,Cyprus,Europe,6.046,6046,2019
+48,Ecuador,South America,6.028,6028,2019
+49,Kuwait,Africa,6.021,6021,2019
+50,Thailand,Asia,6.008,6008,2019
+51,Latvia,Europe,5.94,5940,2019
+52,South Korea,Asia,5.895,5895,2019
+53,Estonia,Europe,5.893,5893,2019
+54,Jamaica,South America,5.89,5890,2019
+55,Mauritius,Africa,5.888,5888,2019
+56,Japan,Asia,5.886,5886,2019
+57,Honduras,South America,5.86,5860,2019
+58,Kazakhstan,Asia,5.809,5809,2019
+59,Bolivia,South America,5.779,5779,2019
+60,Hungary,Europe,5.758,5758,2019
+61,Paraguay,South America,5.743,5743,2019
+62,N. Cyprus,Europe,5.718,5718,2019
+63,Peru,South America,5.697,5697,2019
+64,Portugal,Europe,5.693,5693,2019
+65,Pakistan,Asia,5.653,5653,2019
+66,Russia,Europe,5.648,5648,2019
+67,Philippines,Asia,5.631,5631,2019
+68,Serbia,Europe,5.603,5603,2019
+69,Moldova,Europe,5.529,5529,2019
+70,Libya,Africa,5.525,5525,2019
+71,Montenegro,Europe,5.523,5523,2019
+72,Tajikistan,Asia,5.467,5467,2019
+73,Croatia,Europe,5.432,5432,2019
+74,Hong Kong,Asia,5.43,5430,2019
+75,Dominican Rep.,South America,5.425,5425,2019
+76,Bosnia and Herzegovina,Europe,5.386,5386,2019
+77,Turkey,Africa,5.373,5373,2019
+78,Malaysia,Asia,5.339,5339,2019
+79,Belarus,Europe,5.323,5323,2019
+80,Greece,Europe,5.287,5287,2019
+81,Mongolia,Asia,5.285,5285,2019
+82,North Macedonia,Europe,5.274,5274,2019
+83,Nigeria,Africa,5.265,5265,2019
+84,Kyrgyzstan,Asia,5.261,5261,2019
+85,Turkmenistan,Asia,5.247,5247,2019
+86,Algeria,Africa,5.211,5211,2019
+87,Morocco,Africa,5.208,5208,2019
+88,Azerbaijan,Europe,5.208,5208,2019
+89,Lebanon,Africa,5.197,5197,2019
+90,Indonesia,Asia,5.192,5192,2019
+91,China,Asia,5.191,5191,2019
+92,Vietnam,Asia,5.175,5175,2019
+93,Cameroon,Africa,5.044,5044,2019
+94,Bulgaria,Europe,5.011,5011,2019
+95,Ghana,Africa,4.996,4996,2019
+96,Côte d'Ivoire,Africa,4.944,4944,2019
+97,Nepal,Asia,4.913,4913,2019
+98,Jordan,Africa,4.906,4906,2019
+99,Benin,Africa,4.883,4883,2019
+100,Congo,Africa,4.812,4812,2019
+101,Gabon,Africa,4.799,4799,2019
+102,Laos,Asia,4.796,4796,2019
+103,South Africa,Africa,4.722,4722,2019
+104,Albania,Europe,4.719,4719,2019
+105,Venezuela,South America,4.707,4707,2019
+106,Cambodia,Asia,4.7,4700,2019
+107,Palestine,Africa,4.696,4696,2019
+108,Senegal,Africa,4.681,4681,2019
+109,Namibia,Africa,4.639,4639,2019
+110,Niger,Africa,4.628,4628,2019
+111,Burkina Faso,Africa,4.587,4587,2019
+112,Armenia,Asia,4.559,4559,2019
+113,Iran,Africa,4.548,4548,2019
+114,Guinea,Africa,4.534,4534,2019
+115,S. Geo. and the Is.,Europe,4.519,4519,2019
+116,Gambia,Africa,4.516,4516,2019
+117,Kenya,Africa,4.509,4509,2019
+118,Mauritania,Africa,4.49,4490,2019
+119,Mozambique,Africa,4.466,4466,2019
+120,Tunisia,Africa,4.461,4461,2019
+121,Bangladesh,Asia,4.456,4456,2019
+122,Iraq,Africa,4.437,4437,2019
+123,Congo,Africa,4.418,4418,2019
+124,Mali,Africa,4.39,4390,2019
+125,Sierra Leone,Africa,4.374,4374,2019
+126,Sri Lanka,Asia,4.366,4366,2019
+127,Myanmar,Asia,4.36,4360,2019
+128,Chad,Africa,4.35,4350,2019
+129,Ukraine,Europe,4.332,4332,2019
+130,Ethiopia,Africa,4.286,4286,2019
+131,eSwatini,Africa,4.212,4212,2019
+132,Uganda,Africa,4.189,4189,2019
+133,Egypt,Africa,4.166,4166,2019
+134,Zambia,Africa,4.107,4107,2019
+135,Togo,Africa,4.085,4085,2019
+136,India,Asia,4.015,4015,2019
+137,Liberia,Africa,3.975,3975,2019
+138,Comoros,Africa,3.973,3973,2019
+139,Madagascar,Africa,3.933,3933,2019
+140,Lesotho,Africa,3.802,3802,2019
+141,Burundi,Africa,3.775,3775,2019
+142,Zimbabwe,Africa,3.663,3663,2019
+143,Haiti,South America,3.597,3597,2019
+144,Botswana,Africa,3.488,3488,2019
+145,Malawi,Africa,3.41,3410,2019
+146,Yemen,Africa,3.38,3380,2019
+147,Rwanda,Africa,3.334,3334,2019
+148,Tanzania,Africa,3.231,3231,2019
+149,Afghanistan,Asia,3.203,3203,2019
 1,Finland,Europe,7.808700085,7808.700085,2020
 2,Denmark,Europe,7.645599842,7645.599842,2020
 3,Switzerland,Europe,7.559899807,7559.899807,2020
@@ -426,28 +426,28 @@ Rank,Country,Continent,Score,Happiness Score,Year
 128,Tunisia,Africa,4.392199993,4392.199993,2020
 129,Mauritania,Africa,4.374599934,4374.599934,2020
 130,Sri Lanka,Asia,4.327000141,4327.000141,2020
-132,eSwatini,Africa,4.308100224,4308.100224,2020
-133,Myanmar,Asia,4.308000088,4308.000088,2020
-134,Comoros,Africa,4.288599968,4288.599968,2020
-135,Togo,Africa,4.187200069,4187.200069,2020
-136,Ethiopia,Africa,4.186200142,4186.200142,2020
-137,Madagascar,Africa,4.165599823,4165.599823,2020
-138,Egypt,Africa,4.151400089,4151.400089,2020
-139,Sierra Leone,Africa,3.926399946,3926.399946,2020
-140,Burundi,Africa,3.775300026,3775.300026,2020
-141,Zambia,Africa,3.759399891,3759.399891,2020
-142,Haiti,South America,3.720799923,3720.799923,2020
-143,Lesotho,Africa,3.652800083,3652.800083,2020
-144,India,Asia,3.573299885,3573.299885,2020
-145,Malawi,Africa,3.538000107,3538.000107,2020
-146,Yemen,Africa,3.527400017,3527.400017,2020
-147,Botswana,Africa,3.478899956,3478.899956,2020
-148,Tanzania,Africa,3.476200104,3476.200104,2020
-149,Central African Rep.,Africa,3.475899935,3475.899935,2020
-150,Rwanda,Africa,3.312299967,3312.299967,2020
-151,Zimbabwe,Africa,3.299200058,3299.200058,2020
-152,S. Sudan,Africa,2.816600084,2816.600084,2020
-153,Afghanistan,Asia,2.566900015,2566.900015,2020
+131,eSwatini,Africa,4.308100224,4308.100224,2020
+132,Myanmar,Asia,4.308000088,4308.000088,2020
+133,Comoros,Africa,4.288599968,4288.599968,2020
+134,Togo,Africa,4.187200069,4187.200069,2020
+135,Ethiopia,Africa,4.186200142,4186.200142,2020
+136,Madagascar,Africa,4.165599823,4165.599823,2020
+137,Egypt,Africa,4.151400089,4151.400089,2020
+138,Sierra Leone,Africa,3.926399946,3926.399946,2020
+139,Burundi,Africa,3.775300026,3775.300026,2020
+140,Zambia,Africa,3.759399891,3759.399891,2020
+141,Haiti,South America,3.720799923,3720.799923,2020
+142,Lesotho,Africa,3.652800083,3652.800083,2020
+143,India,Asia,3.573299885,3573.299885,2020
+144,Malawi,Africa,3.538000107,3538.000107,2020
+145,Yemen,Africa,3.527400017,3527.400017,2020
+146,Botswana,Africa,3.478899956,3478.899956,2020
+147,Tanzania,Africa,3.476200104,3476.200104,2020
+148,Central African Rep.,Africa,3.475899935,3475.899935,2020
+149,Rwanda,Africa,3.312299967,3312.299967,2020
+150,Zimbabwe,Africa,3.299200058,3299.200058,2020
+151,S. Sudan,Africa,2.816600084,2816.600084,2020
+152,Afghanistan,Asia,2.566900015,2566.900015,2020
 1,Finland,Europe,7.842,7842,2021
 2,Denmark,Europe,7.62,7620,2021
 3,Switzerland,Europe,7.571,7571,2021
