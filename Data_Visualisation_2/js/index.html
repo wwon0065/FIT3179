@@ -21,7 +21,7 @@
     <h2 style = "text-align: center">Wong Wing Sze (32677634)</h2>
     <h2 style = "text-align: center">FIT3179 Data Visualisation 2</h2><br>
     
-    <p id = "p1", style = "position:relative; left: 200px; right: 200px;">The World Happiness Report is a publication of the United Nations Sustainable Development Solutions Network that reports how people evaluate their happiness level in more than 150 countries worldwide. It has measured the happiness score based on several attributes such as dystopia, GDP per capita, healthy life expectancy, social support, freedom to make life choices, generosity, and perceptions of business corruption. This report has gain global recognition as governments, organizations and civil society increasingly make use of these reports to inform their policy-making decisions. It has reminded the world to pursue for happiness despite the pandemic and ills of disease and war we must tackle with.</p>
+    <p id = "p1", style = "position:relative; left: 200px; right: 200px;">The <span style="color:red">World Happiness Report</span> is a publication of the United Nations Sustainable Development Solutions Network that reports how people evaluate their happiness level in more than 150 countries worldwide. It has measured the <span style="color:red">happiness score</span> based on several attributes such as dystopia, GDP per capita, healthy life expectancy, social support, freedom to make life choices, generosity, and perceptions of business corruption. This report has gain global recognition as governments, organizations and civil society increasingly make use of these reports to inform their policy-making decisions. It has reminded the world to pursue for happiness despite the pandemic and ills of disease and war we must tackle with.</p>
     <p style = "position:relative; left: 200px; right: 200px;">Source of Dataset: <a href="https://www.kaggle.com/datasets/shivkumarganesh/world-happiness-report-20152022">World Happiness Report 2015-2022</a>
     and <a href="https://www.kaggle.com/datasets/mathurinache/world-happiness-report-2022">World Happiness Report 2022</a></p>
 
@@ -51,7 +51,7 @@
         }).catch(console.error);
     </script>
     <p><br><br><br></p>
-    <p id = "p1", style = "position:relative; left: 200px; right: 200px;">Finland has been ranked Top 1 in Happiness Score for 5 consecutive years. It could be seen that Australasia has the highest happiness score averagely among the continents.</p>
+    <p id = "p1", style = "position:relative; left: 200px; right: 200px;"><span style="color:red">Finland</span> has been ranked Top 1 in <span style="color:red">Happiness Score</span> for 5 consecutive years. It could be seen that <span style="color:red">Australasia</span> has the highest happiness score averagely among the continents.</p>
 
     <div id="packed_bubble_chart">
     </div>
@@ -76,8 +76,8 @@
         vegaEmbed('#radial_plot', spec6).then(function(result) {
         }).catch(console.error);
     </script>
-    <p><br><br><br><br></p>
-    <p style = "text-align: center">Dystopia and GDP per capita has contributed the most for the calculation of happiness score.</p>
+    <p><br><br><br></p>
+    <p id = "p1", style = "position:relative; left: 200px; right: 200px;">Among all attributes, <span style="color:red">Dystopia</span> and <span style="color:red">GDP per capita</span> has contributed the most for the calculation of happiness score. Therefore, this is the difference of Dystopia score and GDP per capita among all continents.</p>
 
     <div id="scatter_plot">
     </div>
@@ -86,7 +86,9 @@
         vegaEmbed('#scatter_plot', spec7).then(function(result) {
         }).catch(console.error);
     </script>
-
+    <p><br><br></p>
+    <p id = "p1", style = "position:relative; left: 200px; right: 200px;">The scatter plot shows the <span style="color:red">correlation</span> between happiness scores and other 7 attributes. We could see that they are positively correlated to happiness score.</p>
+    <p><br><br></p>
   
 </body>
 </html> 

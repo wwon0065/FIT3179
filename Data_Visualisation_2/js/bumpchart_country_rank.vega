@@ -7,7 +7,7 @@
         "fontSize": 20,
         "fontWeight": 800
     },
-    "width": 400, 
+    "width": 370, 
     "height": 250,
     "data": {
         "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Data_Visualisation_2/data/world_happiness_report_2018-2022.csv",
