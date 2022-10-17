@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Continent Dystopia Score 2022",
+        "anchor": "middle",
+        "baseline": "bottom",
+        "fontSize": 16,
+        "fontWeight": 800
+    }, 
+    "width": 300,
+    "height": 285,
+    "data": {
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Data_Visualisation_2/data/continent_happiness_report_2022.csv",
+        "format": {
+            "type":"csv",  
+            "parse": {
+                "Dystopia": "number"
+            }
+        }
+    },
+    "params": [
+        {
+            "name": "continent_highlight",
+            "select": {"type": "point", "on": "click", "fields": ["Continent"]},
+            "bind": "legend"
+        }
+    ],
+    "mark": {"type": "bar", "height": {"band": 0.7}},
+    "encoding": {
+        "y": { "field": "Continent", "type": "nominal" },
+        "x": { "field": "Dystopia", "type": "quantitative", "title": "Average Dystopia Score"},
+        "color": {
+            "field": "Continent",
+            "type": "ordinal",
+            "scale": {
+                "domain": ["Africa", "Asia", "Australasia", "Europe", "North America", "South America"],
+                "range": ["#a6bddb", "#2171b5", "#fb9a99", "#cb181d", "#fc8d59", "#9e9ac8"]
+            }
+        },
+        "opacity": {
+            "condition": {"param": "continent_highlight", "value": 1},
+            "value": 0.2
+        },
+        "tooltip": [
+            {"field": "Continent", "type": "nominal"},
+            {"field": "Dystopia", "type": "quantitative", "title": "Average Dystopia Score"},
+            {"field": "Happiness_Score", "type": "quantitative", "title": "Average Happiness Score"}
+        ]
+    }            
+}

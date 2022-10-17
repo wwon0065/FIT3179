@@ -1,0 +1,107 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 350,
+  "height": 300,
+  "padding": {"left": 5, "right": 5, "top": 20, "bottom": 0},
+  "autosize": "none",
+  "signals": [
+    {"name": "cx", "update": "width / 2"},
+    {"name": "cy", "update": "height / 2"},
+    {
+      "name": "gravityX",
+      "value": 0.2,
+      "bind": {"input": "range", "min": 0, "max": 1}
+    },
+    {
+      "name": "gravityY",
+      "value": 0.1,
+      "bind": {"input": "range", "min": 0, "max": 1}
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Data_Visualisation_2/data/continent_happiness_report_2022.csv",
+      "format":{"type":"csv", "delimiter":","},
+      "transform": [{"type": "formula", "as": "dec", "expr": "datum.Happiness_Score/18000"}]
+  }
+  ],
+  "scales": [
+    {
+      "name": "size",
+      "domain": {"data": "table", "field": "dec"},
+      "range": [100, 5000]
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "Continent"},
+      "range": ["#a6bddb", "#2171b5", "#fb9a99", "#cb181d", "#fc8d59", "#9e9ac8"]
+    }
+  ],
+  "marks": [
+    {
+      "name": "nodes",
+      "type": "symbol",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "Continent"},
+          "xfocus": {"signal": "cx"},
+          "yfocus": {"signal": "cy"}
+        },
+        "update": {
+          "size": {"signal": "pow(2 * datum.dec, 2)", "scale": "size"},
+          "stroke": {"value": "white"},
+          "strokeWidth": {"value": 1},
+          "tooltip": {
+            "signal": "{'Continent': datum.Continent, 'Average Happiness Score': datum.Happiness_Score, 'Average Dystopia Score': datum.Dystopia, 'Average GDP per Capita': datum.GDP_per_Capita, 'Average Social Support': datum.Social_Support, 'Average Life Expectancy Score': datum.Healthy_Life_Expectancy, 'Average Freedom Score': datum.Freedom_to_Make_Life_Choices, 'Average Generosity Score': datum.Generosity, 'Average Perceptions of Corruption': datum.Perceptions_of_Corruption}"
+          }
+        }
+      },
+      "transform": [
+        {
+          "type": "force",
+          "iterations": 100,
+          "static": false,
+          "forces": [
+            {
+              "force": "collide",
+              "iterations": 2,
+              "radius": {"expr": "sqrt(datum.size) / 2"}
+            },
+            {"force": "center", "x": {"signal": "cx"}, "y": {"signal": "cy"}},
+            {"force": "x", "x": "xfocus", "strength": {"signal": "gravityX"}},
+            {"force": "y", "y": "yfocus", "strength": {"signal": "gravityY"}}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "text": {"value": "Continent Happiness Score 2022"},
+          "baseline": {"value": "bottom"},
+          "fontSize": {"value": 16},
+          "fontWeight": {"value": 800}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "nodes"},
+      "encode": {
+        "enter": {
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "fontSize": {"value": 12},
+          "fontWeight": {"value": 500},
+          "fill": {"value": "white"},
+          "text": {"field": "datum.Continent"}
+        },
+        "update": {"x": {"field": "x"}, "y": {"field": "y"}}
+      }
+    }
+  ]
+}

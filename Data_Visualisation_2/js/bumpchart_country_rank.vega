@@ -1,0 +1,84 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
+    "title": {
+        "text": "World Happiness Score Rank from 2018 to 2022",
+        "anchor": "middle",
+        "baseline": "bottom",
+        "fontSize": 20,
+        "fontWeight": 800
+    },
+    "width": 400, 
+    "height": 250,
+    "data": {
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Data_Visualisation_2/data/world_happiness_report_2018-2022.csv",
+        "format": {
+            "type":"csv",  
+            "parse": {
+                "Rank": "number"
+            }
+        }
+    },
+    "params": [
+        {
+            "name": "Top_n", 
+            "value": 8,
+		    "bind": {"input": "range", "min": 1, "max": 20, "step": 1}
+        }
+    ],
+    "transform": [ 
+        {"filter": "datum.Rank <= Top_n" }
+    ],
+    "encoding": {
+        "x": {  
+            "field": "Year",
+            "type": "ordinal" ,
+            "sort": [2018, 2019, 2020, 2021, 2022] ,
+            "axis": { "labelAngle": 0 , "labelFontSize": 12 , "titleFontSize": 14},
+            "title": "Year"
+        },
+        "y": {  
+            "field": "Rank",
+            "type": "quantitative",
+            "sort": "descending",
+            "scale": {"domain": [0.5, {"expr": "Top_n+0.5"}]},
+            "axis": { 
+                "labelAngle": 0 , 
+                "labelFontSize": 12 ,
+                "tickMinStep": 1 ,
+                "tickCount": {"expr": "Top_n"},
+                "titleFontSize": 14 },
+                "title": "Happiness Ranking"
+        },
+        "tooltip": [
+            {"field": "Country", "type": "nominal"},
+            {"field": "Happiness_Score", "type": "quantitative", "title": "Happiness Score"}
+        ]
+    },
+    "layer": [
+        {
+           "mark": {"type": "line", "interpolate": "monotone"},
+           "encoding": {
+                "color": {"field": "Country"} ,
+                "size": {
+                    "condition":  {"param": "sel_brand_leg", "empty": false, "value": 3},
+                    "value": 1
+                }
+           }
+        },
+        {
+            "params": [
+                { 
+                    "name": "sel_brand_leg", "select": {"type": "point" ,  "on": "click",  "fields": ["Country"]},
+                    "bind": "legend"
+                }
+            ],
+            "mark": {"type" :"tick", "thickness": 5},
+            "encoding": {
+                "color": {
+                    "condition":  {"param": "sel_brand_leg", "empty": false, "value": "black"} ,
+                    "field": "Country"
+                }
+           }
+       }
+   ]
+}

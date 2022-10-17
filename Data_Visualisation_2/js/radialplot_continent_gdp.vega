@@ -1,0 +1,61 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Continent GDP per Capita 2022",
+        "anchor": "middle",
+        "baseline": "bottom",
+        "fontSize": 16,
+        "fontWeight": 800
+    }, 
+    "width": 200,
+    "height": 200,
+    "data": {
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Data_Visualisation_2/data/continent_happiness_report_2022.csv",
+        "format": {
+            "type":"csv",  
+            "parse": {
+                "GDP_per_Capita": "number"
+            }
+        }
+    },
+    "layer": [
+        {
+            "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"},
+            "params": [
+                {
+                    "name": "continent_highlight",
+                    "select": {"type": "point", "on": "click", "fields": ["Continent"]},
+                    "bind": "legend"
+                }
+            ]
+        },
+        {
+            "mark": {"type": "text", "radiusOffset": 20},
+            "encoding": {
+                "text": {"field": "GDP_per_Capita", "type": "quantitative"}
+            }
+        }
+    ],
+    "encoding": {
+        "theta": {"field": "GDP_per_Capita", "type": "quantitative", "stack": true},
+        "radius": {"field": "GDP_per_Capita", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+        "color": {
+            "field": "Continent",
+            "type": "ordinal",
+            "scale": {
+                "domain": ["Africa", "Asia", "Australasia", "Europe", "North America", "South America"],
+                "range": ["#a6bddb", "#2171b5", "#fb9a99", "#cb181d", "#fc8d59", "#9e9ac8"]
+            }
+        },
+        "opacity": {
+            "condition": {"param": "continent_highlight", "value": 1},
+            "value": 0.2
+        },
+        "tooltip": [
+            {"field": "Continent", "type": "nominal"},
+            {"field": "GDP_per_Capita", "type": "quantitative", "title": "Average GDP per Capita"},
+            {"field": "Happiness_Score", "type": "quantitative", "title": "Average Happiness Score"}
+        ]
+    } 
+}
+  

@@ -1,0 +1,110 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Trend of Happiness Score among Continent",
+        "anchor": "middle",
+        "baseline": "bottom",
+        "dy": -10,
+        "fontSize": 20,
+        "fontWeight": 800
+    },
+    "width": 350,
+    "height": 260,
+    "data": {
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Data_Visualisation_2/data/continent_happiness_2018-2022.csv",
+        "format": {
+            "type":"csv",  
+            "parse": {
+                "Happiness_Score": "number"
+            }
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "point": true
+            },
+            "params": [
+                {
+                    "name": "continent_highlight",
+                    "select": {"type": "point", "on": "click", "fields": ["Continent"]},
+                    "bind": "legend"
+                }
+            ],
+            "encoding": {
+                "x": {"timeUnit": "year", "field": "Year", "type": "ordinal", "title": "Year"},
+                "y": {"aggregate":"mean", "field": "Happiness_Score", "type": "quantitative", "title": "Happiness Score"},
+                "color": {
+                    "field": "Continent", 
+                    "type": "nominal",
+                    "scale": {
+                        "domain": ["Africa", "Asia", "Australasia", "Europe", "North America", "South America"],
+                        "range": ["#a6bddb", "#2171b5", "#fb9a99", "#cb181d", "#fc8d59", "#9e9ac8"]
+                    }
+                },
+                "opacity": {
+                    "condition": {"param": "continent_highlight", "value": 1},
+                    "value": 0.2
+                },
+                "tooltip": [
+                    {"field": "Continent", "type": "nominal"},
+                    {"field": "Happiness_Score", "type": "quantitative", "title": "Happiness Score"},
+                    {"timeUnit": "year", "field": "Year", "type": "ordinal", "title": "Year"}
+                ]    
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "baseline": "middle",
+                "dx": 50, 
+                "dy": -120,
+                "fontSize": 12,
+                "fontStyle": "italic"
+            },
+            "encoding": {
+                "text": {"field": "Continent", "type": "nominal"},
+                "color": {"value": "black"},
+                "opacity": {
+                    "condition": {
+                        "test": "datum['Continent'] == 'Australasia'",
+                        "value": 1
+                    },
+                    "value": 0
+                },
+                "tooltip": [
+                    {"field": "Continent", "type": "nominal"},
+                    {"field": "Happiness_Score", "type": "quantitative", "title": "Happiness Score"},
+                    {"timeUnit": "year", "field": "Year", "type": "ordinal", "title": "Year"}
+                ] 
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "baseline": "middle",
+                "dx": -80, 
+                "dy": 0,
+                "fontSize": 12,
+                "fontStyle": "italic"
+            },
+            "encoding": {
+                "text": {"field": "Continent", "type": "nominal"},
+                "color": {"value": "black"},
+                "opacity": {
+                    "condition": {
+                        "test": "datum['Continent'] == 'Africa'",
+                        "value": 1
+                    },
+                    "value": 0
+                },
+                "tooltip": [
+                    {"field": "Continent", "type": "nominal"},
+                    {"field": "Happiness_Score", "type": "quantitative", "title": "Happiness Score"},
+                    {"timeUnit": "year", "field": "Year", "type": "ordinal", "title": "Year"}
+                ] 
+            }
+        }
+    ] 
+}

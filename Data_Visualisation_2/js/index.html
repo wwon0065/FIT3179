@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    
+    <title>World Happiness Report 2022</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+
+    </head>
+
+<body>
+    <h1 style = "text-align: center">World Happiness Report 2022</h1>
+    <hr>
+    <h2 style = "text-align: center">Wong Wing Sze (32677634)</h2>
+    <h2 style = "text-align: center">FIT3179 Data Visualisation 2</h2><br>
+    
+    <p id = "p1", style = "position:relative; left: 200px; right: 200px;">The World Happiness Report is a publication of the United Nations Sustainable Development Solutions Network that reports how people evaluate their happiness level in more than 150 countries worldwide. It has measured the happiness score based on several attributes such as dystopia, GDP per capita, healthy life expectancy, social support, freedom to make life choices, generosity, and perceptions of business corruption. This report has gain global recognition as governments, organizations and civil society increasingly make use of these reports to inform their policy-making decisions. It has reminded the world to pursue for happiness despite the pandemic and ills of disease and war we must tackle with.</p>
+    <p style = "position:relative; left: 200px; right: 200px;">Source of Dataset: <a href="https://www.kaggle.com/datasets/shivkumarganesh/world-happiness-report-20152022">World Happiness Report 2015-2022</a>
+    and <a href="https://www.kaggle.com/datasets/mathurinache/world-happiness-report-2022">World Happiness Report 2022</a></p>
+
+    <div id="choropleth_map">
+    </div>
+    <script type="text/javascript">
+        var spec1 = "choroplethmap_country_happinessscore.json";
+        vegaEmbed('#choropleth_map', spec1).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    </script>
+    <p><br></p>
+
+    <div id="bump_chart">
+    </div>
+    <script type="text/javascript">
+        var spec2 = "bumpchart_country_rank.vega";
+        vegaEmbed('#bump_chart', spec2).then(function(result) {
+        }).catch(console.error);
+    </script>
+
+    <div id="line_chart">
+    </div>
+    <script type="text/javascript">
+        var spec3 = "linechart_continent_happiness.vega";
+        vegaEmbed('#line_chart', spec3).then(function(result) {
+        }).catch(console.error);
+    </script>
+    <p><br><br><br></p>
+    <p id = "p1", style = "position:relative; left: 200px; right: 200px;">Finland has been ranked Top 1 in Happiness Score for 5 consecutive years. It could be seen that Australasia has the highest happiness score averagely among the continents.</p>
+
+    <div id="packed_bubble_chart">
+    </div>
+    <script type="text/javascript">
+        var spec4 = "packedbubblechart_continent_happiness.vega";
+        vegaEmbed('#packed_bubble_chart', spec4).then(function(result) {
+        }).catch(console.error);
+    </script>
+
+    <div id="bar_chart">
+    </div>
+    <script type="text/javascript">
+        var spec5 = "barchart_continent_dystopia.vega";
+        vegaEmbed('#bar_chart', spec5).then(function(result) {
+        }).catch(console.error);
+    </script>
+
+    <div id="radial_plot">
+    </div>
+    <script type="text/javascript">
+        var spec6 = "radialplot_continent_gdp.vega";
+        vegaEmbed('#radial_plot', spec6).then(function(result) {
+        }).catch(console.error);
+    </script>
+    <p><br><br><br><br></p>
+    <p style = "text-align: center">Dystopia and GDP per capita has contributed the most for the calculation of happiness score.</p>
+
+    <div id="scatter_plot">
+    </div>
+    <script type="text/javascript">
+        var spec7 = "scatterplot_correlation.vega";
+        vegaEmbed('#scatter_plot', spec7).then(function(result) {
+        }).catch(console.error);
+    </script>
+
+  
+</body>
+</html> 

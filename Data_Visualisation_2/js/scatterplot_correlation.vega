@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Correlation between Happiness Score and Other Attributes",
+        "anchor": "middle",
+        "baseline": "bottom",
+        "fontSize": 24,
+        "fontWeight": 800
+    },
+    "repeat": ["Dystopia", "GDP_per_Capita", "Healthy_Life_Expectancy", "Social_Support", "Freedom_to_Make_Life_Choices", "Generosity", "Perceptions_of_Corruption"],
+    "columns": 4, 
+    "spec": {
+        "height": 180,
+        "width": 180,
+        "data": {
+        "url": "https://raw.githubusercontent.com/wwon0065/FIT3179/main/Data_Visualisation_2/data/world_happiness_report_2022.csv"
+        },
+        "mark": "circle",
+        "encoding": {
+            "x": {
+                "field": "Happiness_Score",
+                "type": "quantitative",
+                "axis": {"tickCount": 8},
+                "scale": {"domain":[1, 8000]},
+                "title": "Happiness Score"
+            },
+            "y": {
+                "field": {"repeat": "repeat"},
+                "type": "quantitative",
+                "axis": { "tickCount": 6},
+                "scale": {"domain":[1, 3000]}
+            },
+            "color": {
+                "field": "Happiness_Score",
+                "type": "quantitative",
+                "scale": {
+                "type": "threshold",
+                "domain": [4000, 5000, 6000, 7000],
+                "range": ["#fcbba1", "#fc9272", "#fb6a4a", "#de2d26", "#a50f15"]
+                },
+                "title": "Happiness Score"
+            },
+            "tooltip": [
+                {"field": "Country", "type": "nominal"},
+                {"field": "Happiness_Score", "type": "quantitative", "title": "Happiness Score"},
+                {"field": {"repeat": "repeat"}, "type": "quantitative"}
+            ]
+        }
+    }
+  }
